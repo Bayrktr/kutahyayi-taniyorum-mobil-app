@@ -1,6 +1,7 @@
-# okulprojesi
 
-Tarih_Projesi
+## Expore Kütahya 
+
+It is a city tour guide application prepared by Necip Fazil Kısakürek Anatolian High School to promote Kütahya. I would like to thank everyone who contributed.
 
 ## Getting Started
 
