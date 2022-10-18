@@ -1,0 +1,42 @@
+int number = 0;
+                  dynamic content = await readKutahyaFiles('turkiye');
+                  final db = await dbConnectSystem();
+                  var results = await event_datas(db, 'turkiye');
+                  for (var x in results) {
+                    number += 1;
+                  }
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => anasayfaIki(
+                                dil: 'turkiye',
+                                files: content,
+                                anaEkranYazilar: arkaPlanYazilari
+                                    .kutahyaTanitimEkraniYazilar[0],
+                                anaEkranKaynaklar: results,
+                                number: number,
+                              )));
+                },
+
+[
+  'Profil',
+  'Müzeler',
+  'Alışveriş',
+  'Pansiyon',
+  'Yemek',
+  'Etkinlikler',
+  'Okulumuz',
+  'Arama Yap',
+  'Kaydedilenler'
+  ],
+  [
+  'Profil',
+  'Museen',
+  'Einkaufen',
+  'Herberge',
+  'Essen',
+  'Aktivität ',
+  'Schule',
+  'Nachschlagen',
+  'Verzeichnet'
+  ],
