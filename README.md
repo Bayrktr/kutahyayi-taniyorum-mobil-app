@@ -1,5 +1,5 @@
 
-## Explore Kutahya 
+## Kütahya 'yı Tanıyorum
 
 It is a city tour guide application prepared by Necip Fazil Kısakürek Anatolian High School to promote Kütahya. I would like to thank everyone who contributed.
 
